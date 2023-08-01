@@ -49,6 +49,19 @@ main{
     background-color: #A084E8;
 }
 
+.barra a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.barra a:hover {
+    text-decoration: none;
+    color: #071a0d;
+    font-weight: bold;
+    background-color: #8BE8E5;
+}
+
 @media (max-width: 768px){
 
 
@@ -61,5 +74,6 @@ main{
 
     .barra , .principal, .head{
         width: 100%;
+        text-align: center;
     }
 }
