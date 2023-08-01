@@ -18,7 +18,7 @@
     place-items: center;
     height: 100px;
     max-height: 100px;
-    min-width: 90%;
+    width: 90%;
     margin-top: 15px;
     color: #8BE8E5;
 }
@@ -50,8 +50,8 @@ main{
         padding: 0;
     }
 
-    .barra , .principal .head{
+    .barra , .principal, .head{
         width: 100%;
-        min-width: 100%;
+        margin: ;
     }
 }
